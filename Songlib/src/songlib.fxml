@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchor" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SonglibController">
+
+    <ListView fx:id="listView" layoutX="2.0" layoutY="124.0" prefHeight="424.0" prefWidth="724.0" AnchorPane.bottomAnchor="111.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="124.0" />
+    <Label alignment="CENTER" layoutX="-2.0" layoutY="-1.0" prefHeight="62.0" prefWidth="731.0" text="Song Library" textFill="#8e15df">
+        <font>
+            <Font name="Comic Sans MS" size="38.0" />
+        </font></Label>
+    <Label fx:id="details" alignment="CENTER" layoutY="57.0" prefHeight="62.0" prefWidth="724.0" text="Song Details">
+        <font>
+            <Font name="Century" size="21.0" />
+        </font>
+    </Label>
+    <Button fx:id="add" layoutX="226.0" layoutY="601.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="78.0" text="Add Song" />
+    <TextField fx:id="songtext" layoutX="14.0" layoutY="563.0" prefHeight="26.0" prefWidth="142.0" />
+    <Button fx:id="delete" layoutX="404.0" layoutY="601.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="92.0" text="Delete Song" />
+    <Button fx:id="edit" layoutX="315.0" layoutY="601.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="78.0" text="Edit Song" />
+    <Button fx:id="clear" layoutX="624.0" layoutY="563.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="92.0" text="Clear" />
+    <TextField fx:id="artisttext" layoutX="165.0" layoutY="563.0" prefHeight="26.0" prefWidth="142.0" />
+    <TextField fx:id="albumtext" layoutX="317.0" layoutY="563.0" prefHeight="26.0" prefWidth="142.0" />
+    <TextField fx:id="yeartext" layoutX="470.0" layoutY="563.0" prefHeight="26.0" prefWidth="142.0" />
+
+</AnchorPane>
